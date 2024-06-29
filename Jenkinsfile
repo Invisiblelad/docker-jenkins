@@ -15,7 +15,7 @@ pipeline {
         }
         stage('docker build'){
             steps {
-                sh "docker build -it ${dockerusername}/devops1 ."
+                sh "docker build -i ${dockerusername}/devops1 ."
             }
         }
         stage('docker push'){
