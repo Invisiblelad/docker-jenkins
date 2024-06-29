@@ -15,12 +15,12 @@ pipeline {
         }
         stage('docker build'){
             steps {
-                sh docker build -it ${dockerusername}/devops1 .
+                sh "docker build -it ${dockerusername}/devops1 ."
             }
         }
         stage('docker push'){
             steps {
-                sh docker push  ${dockerusername}/devops1
+                sh "docker push  ${dockerusername}/devops1"
             }
         }
 }
