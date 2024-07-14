@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ${dockeruser}/devops2:latest  
+          image: invisiblelad/devops2:latest  
           ports:
             - containerPort: 5000  
 
