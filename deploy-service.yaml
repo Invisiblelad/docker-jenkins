@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: invisiblelad/devops2:latest  
+          image: invisible1/devops2:latest  
           ports:
             - containerPort: 5000  
 
